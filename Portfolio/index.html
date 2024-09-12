@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thayná Lhul</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <br>
+    <style>
+        main{
+            display:inline-flex;
+            background-color: rgb(192, 159, 223);
+        }
+        form{
+            background-color: blueviolet;
+        }
+    </style>
+    <main>
+    <section id="about">
+        <h1>Sobre mim</h1>
+          <p> Meu nome é Thayná, tenho 25 anos, possuo formação na área adminitrativa, com ampla experiência em
+            gerenciamento de equipe e organização de setor. Há alguns anos venho investindo em outra área profissional,
+            buscando me aprofundar em conhecimentos de informática, para que em um futuro próximo possa casar as duas
+            formações e aprimorar meu trabalho na gestão voltada para a informática. </p>
+    </section>
+    <section id="portfolio">
+        <img src="sonica.jpeg">
+    </section>
+    <br><br>
+    <section>
+        <h1>Conhecimentos e habilidades:</h1>
+        <ul>
+            <li type="">Atendimento</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>PowerBi</li>
+            <li>HTML</li>
+            <li>Inglês</li>
+            <li>Espanhol</li>
+        </ul>
+
+    </section>
+    <section id="contact">
+        <h1> Entre em contato: </h1>
+        <form action="pagina-de-destino.php" method="post"></form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required><br>
+            <br>
+            <label for="number">Telefone:</label>
+            <input type="number" id="number" name="number">
+            <br><br>
+            <input type="submit" value="Enviar">
+    </section>
+</main>
+</body>
+
+</html>
